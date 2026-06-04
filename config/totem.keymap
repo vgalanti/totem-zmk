@@ -98,14 +98,14 @@
             bindings = <
         &kp LEFT_BRACE  &kp RIGHT_BRACE   &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp DOLLAR    &kp PERCENT  &kp PLUS        &kp MINUS  &kp STAR       &kp CARET
         &kp LESS_THAN   &kp GREATER_THAN  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &arrow        &fat_arrow   &kp UNDERSCORE  &kp EQUAL  &kp PIPE       &kp AMPERSAND
-&trans  &trans          &kp EXCL          &kp QUESTION          &kp SEMI               &namespace    &trans       &kp HASH        &kp SLASH  &kp BACKSLASH  &kp AT         &trans
+&trans  &trans          &kp EXCL          &kp QUESTION          &kp SEMI               &namespace    &kp AT       &kp HASH        &kp SLASH  &kp BACKSLASH  &kp RSHIFT     &trans
                                           &trans                &trans                 &kp TAB       &trans       &trans          &trans
             >;
         };
 
         navnum {
             bindings = <
-        &trans  &kp LA(TAB)     &kp UP_ARROW  &kp LC(UP_ARROW)  &kp C_BRIGHTNESS_INC        &kp C_VOLUME_UP    &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &trans
+        &trans  &kp LG(TAB)     &kp UP_ARROW  &kp LC(UP_ARROW)  &kp C_BRIGHTNESS_INC        &kp C_VOLUME_UP    &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &trans
         &trans  &kp LEFT_ARROW  &kp DOWN      &kp RIGHT         &kp LC(C_BRIGHTNESS_DEC)    &kp C_VOLUME_DOWN  &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp NUMBER_0
 &trans  &trans  &trans          &trans        &trans            &trans                      &kp K_MUTE         &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &trans        &trans
                                 &trans        &trans            &kp LG(SPACE)               &trans             &trans        &trans
