@@ -105,10 +105,10 @@
 
         navnum {
             bindings = <
-        &trans  &kp LG(TAB)     &kp UP_ARROW  &kp LC(UP_ARROW)  &kp C_BRIGHTNESS_INC        &kp C_VOLUME_UP    &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &trans
-        &trans  &kp LEFT_ARROW  &kp DOWN      &kp RIGHT         &kp LC(C_BRIGHTNESS_DEC)    &kp C_VOLUME_DOWN  &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp NUMBER_0
-&trans  &trans  &trans          &trans        &trans            &trans                      &kp K_MUTE         &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &trans        &trans
-                                &trans        &trans            &kp LG(SPACE)               &trans             &trans        &trans
+        &kp LA(LS(TAB))  &kp LG(TAB)     &kp UP_ARROW  &kp LC(UP_ARROW)  &kp C_BRIGHTNESS_INC        &kp C_VOLUME_UP    &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &trans
+        &trans           &kp LEFT_ARROW  &kp DOWN      &kp RIGHT         &kp LC(C_BRIGHTNESS_DEC)    &kp C_VOLUME_DOWN  &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp NUMBER_0
+&trans  &trans           &trans          &trans        &trans            &trans                      &kp K_MUTE         &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &trans        &trans
+                                         &trans        &trans            &kp LG(SPACE)               &trans             &trans        &trans
             >;
         };
     };
